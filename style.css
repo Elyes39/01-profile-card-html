@@ -1,0 +1,113 @@
+/*
+	Center the h3 heading inside the profile card
+*/
+.profile-card h3 {
+		text-align: center;
+}
+/*
+  Style the profile image to fit nicely in the card
+*/
+.profile-card img {
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	display: block;
+	margin: 0 auto 20px auto;
+	border-radius: 50%;
+	border: 2px solid #ccc;
+}
+
+/*
+  Remove bullet points and add spacing to the list
+*/
+.profile-card ul {
+	list-style: none;
+	padding: 0;
+	margin: 24px 0 0 0;
+	text-align: center;
+}
+
+.profile-card li {
+	margin: 10px 0;
+}
+
+.profile-card a {
+	text-decoration: none;
+	color: #003366;
+	font-weight: bold;
+	transition: color 0.2s;
+}
+
+.profile-card a:hover {
+	color: #005fa3;
+}
+
+
+/*
+	The body selector sets the background color for the whole page
+	and applies a clean, modern sans-serif font to all text.
+*/
+body {
+		background-color: #add8e6; /* Light blue background for the page */
+		font-family: Arial, Helvetica, sans-serif; /* Use Arial or similar sans-serif font */
+}
+
+
+/*
+	The .profile-card class styles the card container:
+	- White background, rounded corners, and a subtle border
+	- Restricts the card's width and centers it horizontally
+	- Adds padding inside and a soft shadow for a card effect
+*/
+.profile-card {
+		background: #fff; /* White background for the card */
+		border: 1.5px solid #ccc; /* Light grey border */
+		border-radius: 12px; /* Rounded corners */
+		max-width: 500px; /* Maximum width of the card */
+		margin: 40px auto; /* 40px space on top/bottom, auto left/right to center */
+		padding: 32px 24px; /* Space inside the card */
+		box-shadow: 0 2px 8px rgba(0,0,0,0.06); /* Subtle shadow for depth */
+}
+
+
+
+/*
+	Center the main heading and subheading text horizontally
+*/
+h1, h2 {
+		text-align: center;
+}
+
+
+/*
+	Style the main heading:
+	- Large font size, extra space above, and dark blue color
+*/
+h1 {
+		font-size: 48px; /* Large text for the main heading */
+		margin-top: 32px; /* Space above the heading */
+		color: #003366; /* Dark blue color */
+}
+
+
+/*
+	Style the subheading:
+	- Slightly smaller font, space above, and light grey color
+*/
+h2 {
+		font-size: 32px; /* Medium-large text for the subheading */
+		margin-top: 16px; /* Space above the subheading */
+		color: slategrey; /* Light grey color */
+}
+
+
+/*
+	Style the bio paragraph:
+	- Center the text, make it larger, and add more line spacing for readability
+*/
+p {
+		text-align: center; /* Center the bio text */
+		font-size: 20px; /* Larger font for easier reading */
+		line-height: 1.6; /* More space between lines */
+}
+
